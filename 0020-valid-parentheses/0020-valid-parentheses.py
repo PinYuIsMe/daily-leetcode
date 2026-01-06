@@ -1,22 +1,21 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        open_bracket = ['(', '{', '[']
-        close_bracket = [')', '}', ']']
+        # 建立映射關係：Key 是右括號，Value 是對應的左括號
+        bracket_map = {")": "(", "}": "{", "]": "["}
         stack = []
-        for c in s:
-            if c in open_bracket:
-                stack.append(c)
-            elif c in close_bracket:
-                if len(stack) == 0:
-                    return False
-                top = stack[-1]
-                top_idx = open_bracket.index(top)
-                c_idx = close_bracket.index(c)
-                if top_idx != c_idx or len(stack) == 0:
-                    return False
-                stack.pop()
 
-        if len(stack) != 0:
-            return False
-        else:
-            return True
+        for char in s:
+            # 如果是右括號
+            if char in bracket_map:
+                # 彈出棧頂元素，如果棧是空的，給一個永遠配對不上的 dummy char
+                top_element = stack.pop() if stack else '#'
+                
+                # 直接比對，不需要算索引
+                if bracket_map[char] != top_element:
+                    return False
+            else:
+                # 如果是左括號，直接入棧
+                stack.append(char)
+
+        # 只要檢查棧是否為空即可
+        return not stack
