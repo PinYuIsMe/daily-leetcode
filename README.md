@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0704-binary-search](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0704-binary-search) |
 | [0994-rotting-oranges](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0994-rotting-oranges) |
 ## Breadth-First Search
 |  |
@@ -17,4 +18,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0008-string-to-integer-atoi) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
