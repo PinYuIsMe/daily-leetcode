@@ -13,4 +13,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0994-rotting-oranges](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0994-rotting-oranges) |
+## String
+|  |
+| ------- |
+| [0008-string-to-integer-atoi](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0008-string-to-integer-atoi) |
 <!---LeetCode Topics End-->
