@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0704-binary-search) |
 | [0994-rotting-oranges](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0994-rotting-oranges) |
 ## Breadth-First Search
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0704-binary-search) |
 ## Tree
 |  |
@@ -34,4 +36,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0543-diameter-of-binary-tree) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/PinYuIsMe/daily-leetcode/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
